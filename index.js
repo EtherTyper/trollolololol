@@ -15,6 +15,7 @@ app.delete('/credentials', function (req, res) {
   for (let variable of req.query.list.split(',')) {
     delete global.credentials[variable];
   }
+  res.send('Success');
 });
 
 app.listen(app.get('port'), function() {
