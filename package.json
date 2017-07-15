@@ -1,0 +1,11 @@
+{
+  "name": "ExpressTroll",
+  "version": "1.0.0",
+  "description": "trolling nonyo *wink*",
+  "main": "index.js",
+  "author": "EtherTyper",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
